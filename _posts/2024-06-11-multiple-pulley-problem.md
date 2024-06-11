@@ -15,7 +15,7 @@ most important concepts to add on in regards to newtons' laws of motion
 are multiple pulley problems. In order to understand how to solve
 questions looking like this:
 
-![image](https://i.ibb.co/rvDy5bJ/1.png){width="50%"}
+![image](https://i.ibb.co/rvDy5bJ/1.png)
 
 # Frame of Reference 
 
@@ -30,7 +30,7 @@ to the ground (speeding up).
 While this may not seem immediately relevant, let's take a closer look
 at a single pulley.
 
-![image](https://i.ibb.co/kXdpgqq/2.png){width="50%"}
+![image](https://i.ibb.co/kXdpgqq/2.png)
 
 In problems such as this, one might wonder why the acceleration of mass
 m and M are the same in magnitude. Here is the deal, since the pulley is
@@ -45,7 +45,7 @@ clearly.
 
 However, the tricky part begins here
 
-![image](https://i.ibb.co/2KRdn1g/3.png){width="50%"}
+![image](https://i.ibb.co/2KRdn1g/3.png)
 
 ## Method 1: 
 
