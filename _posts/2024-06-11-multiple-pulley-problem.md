@@ -8,7 +8,7 @@ render_with_liquid: false
 math: true
 ---
 
-# Introduction to Multiple Pulley Problems {#introduction-to-multiple-pulley-problems .unnumbered}
+# Introduction to Multiple Pulley Problems
 
 When making the jump from AP Physics 1 to olympiad level, one of the
 most important concepts to add on in regards to newtons' laws of motion
@@ -17,7 +17,7 @@ questions looking like this:
 
 ![image](https://i.ibb.co/rvDy5bJ/1.png){width="50%"}
 
-# Frame of Reference {#frame-of-reference .unnumbered}
+# Frame of Reference 
 
 It is necessary to first understand the concept of frame of reference.
 If a car is speeding up, take: (1) an observer in the car and (2) an
@@ -25,7 +25,7 @@ observer outside the car. The car is not accelerating in the frame of
 the car (relative to the car), but the car is accelerating with respect
 to the ground (speeding up).
 
-# Explaining the Single Pulley {#explaining-the-single-pulley .unnumbered}
+# Explaining the Single Pulley
 
 While this may not seem immediately relevant, let's take a closer look
 at a single pulley.
@@ -41,13 +41,13 @@ have the same time period, $$\Delta x = v_{0}t + \frac{1}{2}at^{2}$$
 They will have the same acceleration, although in opposite directions
 clearly.
 
-# Constraint Equation in Pulley systems: {#constraint-equation-in-pulley-systems .unnumbered}
+# Constraint Equation in Pulley systems: 
 
 However, the tricky part begins here
 
 ![image](https://i.ibb.co/2KRdn1g/3.png){width="50%"}
 
-## Method 1: {#method-1 .unnumbered}
+## Method 1: 
 
 Sure, in the fixed pulley, the string that goes up has to go down cool.
 But at the most right in the system of two pulleys, imagine the force
@@ -70,7 +70,7 @@ $2 \cdot \text{ acceleration of mass } 1$. This method of thinking
 regarding string conservation is a common method to write the constraint
 equation.
 
-## Method 2: {#method-2 .unnumbered}
+## Method 2:
 
 What if we take the frame of reference of an observer on top of the
 pulley. The pulley is not accelerating relative to the pulley. If the
@@ -89,7 +89,7 @@ the left string is attached to the ceiling, so it is $0$. The pulleys
 acceleration is $-\dfrac{a_{2}}{2}$. Since the load will have the same
 acceleration, the acceleration of the load = $-\dfrac{a_{2}}{2}$.
 
-# How to Attack Pulley System Problems {#how-to-attack-pulley-system-problems .unnumbered}
+# How to Attack Pulley System Problems 
 
 1.  Write the net force equations for each of the masses.
 
@@ -100,7 +100,7 @@ acceleration, the acceleration of the load = $-\dfrac{a_{2}}{2}$.
 
 3.  Substitute and solve.
 
-# Writing the Net Force Equation {#writing-the-net-force-equation .unnumbered}
+# Writing the Net Force Equation 
 
 In order to solve this problem, we need to use two guiding principles.
 
@@ -112,10 +112,11 @@ In order to solve this problem, we need to use two guiding principles.
 Looking at the problem, first draw it without the masses and label it to
 find out the tensions.
 
-<figure>
-<img src="https://i.ibb.co/YdTjCcx/4.png" />
-<img src="https://i.ibb.co/mSTb9m2/5.png" />
+<figure style="display: flex; align-items: flex-start;">
+    <img src="https://i.ibb.co/YdTjCcx/4.png" />
+    <img src="https://i.ibb.co/mSTb9m2/5.png" />
 </figure>
+
 
 How to do this: At the right end, let the tension in the string be $T$.
 Since the tension throughout the entire string is $T$, we can say the
@@ -129,7 +130,7 @@ $$T - m_{1}g = m_{1}a_{1}, \quad a_{1} = \frac{T}{m_{1}-g}$$
 $$T - m_{2}g = m_{2}a_{1}, \quad a_{2} = \frac{T}{m_{2}-g}$$
 $$T - m_{3}g = m_{3}a_{3}, \quad a_{3} = \frac{T}{m_{3}-g}$$
 
-# Writing the Constraint Equation {#writing-the-constraint-equation .unnumbered}
+# Writing the Constraint Equation 
 
 Apply method 2. Letting m1's acceleration be $a1$ and since the upper
 right pulley is fixed, the left string attached to the pulley will have
@@ -145,7 +146,7 @@ constraint equation $a_1 + a_2 + a_3 = 0$. To then solve the problem,
 substitute $a1, a2, a3$ from the netforce equations into the constraint
 equation and solve.
 
-# Final Remarks {#final-remarks .unnumbered}
+# Final Remarks 
 
 In order to solve problems such as these, it is necessary to do a lot of
 practice with different variations of the problems. More problems can be
