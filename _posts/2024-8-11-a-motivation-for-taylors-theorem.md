@@ -54,7 +54,7 @@ $$
 then clearly we see putting $\Delta t = 0$ yields $f(t) \approx a$. By our example of $p(x)$, we know the derivatives should match, which means $f'(t + \Delta t) \approx b + 2c \Delta t$, and again putting $\Delta t = 0$ shows us that $f'(t) \approx b$. Taking the second derivative shows us $f''(t + \Delta t) \approx 2c$, meaning $f''(t) = 2c$. Now, moving things around with algebra to get $a,b,c$ alone on one side, we see that 
 
 $$
-f( t + \Delta t) = f(t) + f'(t) \delta T + \frac{f''(t)}{2} \Delta t^2 + o(\Delta t ^2)
+f( t + \Delta t) = f(t) + f'(t) \Delta t + \frac{f''(t)}{2} \Delta t^2 + o(\Delta t ^2)
 $$
 
 Remember, since we can always put $\Delta t = s - t$, we will always have a quadratic approximation centered at  $t$. The end goal here is to get a degree-$n$ approximation polynomial, known as a Taylor Polynomial. The essential observation we must make here is that, for any $x^n$, the $n$-th derivative will always be $n!$, which means our "approximation" value will always be $\frac{f^{n}(t)}{n!} \Delta t^n$. Putting this together, we define the n-th degree taylor polynomial as:
